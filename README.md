@@ -1,3 +1,11 @@
+## Preview
+<br>
+
+![Laptop frame with the project](./images/readme/laptop.png)
+
+<br>
+<br>
+
 # Really simple Landing Page
 I've learned a lot with free content on internet and because of that I decided to start my YouTube channel to help others beginners to get started into the development universe. 
 
@@ -12,8 +20,3 @@ Try do don't git clone it before coding from the video.
 All images are free and I got them from: https://unsplash.com/
 
 All icons are free and I got them from: https://freeicons.io/
-
-<br>
-
-## Preview
-![Laptop frame with the project](./images/readme/laptop.png)
