@@ -1,0 +1,38 @@
+@import "./components/header.css";
+@import "./components/content.css";
+@import "./components/picture.css";
+@import "./components/coffee_list.css";
+
+body {
+  font-family: "Bitter";
+
+  background-image: url("../images/black_yellow-restaurant2.jpg");
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position-y: bottom;
+
+  height: 100vh;
+  width: 100%;
+  padding: 26px 0 60px 0;
+  box-sizing: border-box;
+
+  display: flex;
+  flex-direction: column;
+  gap: 110px;
+
+  backdrop-filter: blur(35px);
+}
+
+main{
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  padding: 0 40px;
+  gap: 50px;
+  flex-grow: 1;
+}
+
+.container{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}

@@ -1,0 +1,19 @@
+#picture_container{
+    display: flex;
+    flex-grow: 1;
+}
+
+.picture {
+    background-size: cover;
+    background-repeat: no-repeat;
+    flex-grow: 1;
+}
+#pic-1{
+    border-top-left-radius: 8px;
+    background-image: url("../../images/yellow_coffee.jpg");
+    border-right: 1px solid #e7c502;
+}
+#pic-2{
+    border-top-right-radius: 8px;
+    background-image: url("../../images/yellow_coffee_group.jpg");
+}
