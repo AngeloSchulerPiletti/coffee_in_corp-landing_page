@@ -11,10 +11,11 @@
       rel="stylesheet"
     />
     <link rel="stylesheet" href="./styles/reset.css" />
+    <link rel="stylesheet" href="./styles/classes.css" />
     <link rel="stylesheet" href="./styles/style.css" />
     <title>Document</title>
   </head>
-  <body>
+  <body class="flex_c">
     <header>
       <div class="logo_container">
         <a href=""
@@ -33,32 +34,59 @@
       </menu>
     </header>
     <main>
-      <div class="container">
+      <div id="container-1" class="flex_c">
         <div id="picture_container">
           <div id="pic-1" class="picture"></div>
           <div id="pic-2" class="picture"></div>
         </div>
-        <div id="content">
+        <div id="content" class="flex_c">
           <p>
             Mussum Ipsum, cacilds vidis litro abertis. Viva Forevis aptent
             taciti sociosqu ad litora torquent.Praesent vel viverra nisi. Mauris
             aliquet nunc non turpis scelerisque, eget.Paisis, filhis, espiritis
             santis.Copo furadis é disculpa de bebadis, arcu quam euismod magna.
           </p>
-          <a href="">Ver no mapa</a>
+          <a href="https://goo.gl/maps/nqe3JDhQ5wANCybY8">Ver no mapa</a>
         </div>
       </div>
-      <div class="container">
-        <h1 id="coffee-list-title">Nossos Cafés</h1>
-        <ul id="coffee-list">
-          <li><span class="name">Expresso</span class="price"><span>4.00</span></li>
-          <li><span class="name">Romano</span class="price"><span>4.50</span></li>
-          <li><span class="name">Expresso Duplo</span class="price"><span>5.00</span></li>
-          <li><span class="name">Americano</span class="price"><span>5.00</span></li>
-          <li><span class="name">Ice Cafea Twice</span class="price"><span>7.50</span></li>
-          <li><span class="name">Ice Town</span class="price"><span>7.50</span></li>
-          <li><span class="name">Supreme Cool</span class="price"><span>8.50</span></li>
+      <div id="container-2" class="flex_c">
+        <h1>Cardápio</h1>
+        <div id="cardapio_container">
+        <ul>
+          <li><span>Expresso</span><span class="price">4.00</span></li>
+          <li><span>Romano</span><span class="price">4.50</span></li>
+          <li><span>Expresso Duplo</span><span class="price">5.00</span></li>
+          <li><span>Americano</span><span class="price">5.00</span></li>
+          <li><span>Ice Cafea Twice</span><span class="price">7.50</span></li>
+          <li><span>Ice Town</span><span class="price">7.50</span></li>
+          <li><span>Supreme Cool</span><span class="price">8.50</span></li>
+          <li><span>Supreme Ice GG</span><span class="price">20.00</span></li>
         </ul>
+        <ul>
+          <li><span>Esfirra</span><span class="price">5.50</span></li>
+          <li><span>Bolinho de carne</span><span class="price">8.50</span></li>
+          <li><span>Pastel Holandês</span><span class="price">15.00</span></li>
+          <li><span>Prato do dia</span><span class="price">20.00</span></li>
+          <li><span>Big Fries</span><span class="price">25.50</span></li>
+          <li><span>Vergan Burguer</span><span class="price">30.50</span></li>
+          <li><span>Supreme Burguer</span><span class="price">48.00</span></li>
+          <li><span>Bisteca grelhada</span><span class="price">80.00</span></li>
+        </ul>
+        <ul>
+          <li><span>Brothers Stuts (300ml)</span><span class="price">7.00</span></li>
+          <li><span>Rocks & Jocks (500ml)</span><span class="price">7.50</span></li>
+          <li><span>Tamipa (500ml)</span><span class="price">13.00</span></li>
+          <li><span>Taisenchatz (800ml)</span><span class="price">19.00</span></li>
+          <li><span>Tamipa (1L)</span><span class="price">19.50</span></li>
+          <li><span>Taisenchatz (5L)</span><span class="price">50.00</span></li>
+        </ul>
+        <ul>
+          <li><span>Brigadeirão</span><span class="price">4.00</span></li>
+          <li><span>Big Churros</span><span class="price">10.50</span></li>
+          <li><span>Pettit Gateau</span><span class="price">11.00</span></li>
+          <li><span>Balde doce</span><span class="price">150.00</span></li>
+        </ul>
+        </div>
       </div>
     </main>
   </body>

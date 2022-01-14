@@ -1,0 +1,25 @@
+#container-2 h1{
+    font-size: 34px;
+    color: #e7c502;
+    font-weight: 600;
+}
+
+#cardapio_container{
+    display: grid;
+    grid-template-columns: minmax(0, 240px) minmax(0, 240px);
+    gap: 30px;
+}
+
+#cardapio_container li{
+    display: flex;
+    justify-content: space-between;
+    gap: 18px;
+    color: #e0e0e0;
+    line-height: 1.25em;
+    font-size: 14px;
+}
+
+#cardapio_container .price{
+    font-size: 1.05;
+    font-weight: 600;
+}

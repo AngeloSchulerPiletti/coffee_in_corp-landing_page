@@ -1,7 +1,7 @@
 @import "./components/header.css";
 @import "./components/content.css";
 @import "./components/picture.css";
-@import "./components/coffee_list.css";
+@import "./components/cardapio.css";
 
 body {
   font-family: "Bitter";
@@ -16,8 +16,6 @@ body {
   padding: 26px 0 60px 0;
   box-sizing: border-box;
 
-  display: flex;
-  flex-direction: column;
   gap: 110px;
 
   backdrop-filter: blur(35px);
@@ -25,14 +23,18 @@ body {
 
 main{
   display: grid;
-  grid-template-columns: 1fr 1fr;
+  grid-template-columns: 8fr 7fr;
   padding: 0 40px;
   gap: 50px;
   flex-grow: 1;
 }
 
-.container{
-  display: flex;
-  flex-direction: column;
+#container-1{
   justify-content: center;
+}
+
+#container-2{
+  justify-content: space-between;
+  gap: 20px;
+  padding: 30px 0;
 }
